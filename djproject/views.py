@@ -7,4 +7,4 @@ def index(request):
     return HttpResponse("check command")
 
 def secondIndex(request):
-    return HttpResponse("check command);
+    return HttpResponse("check command for second page");
