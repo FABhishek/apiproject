@@ -5,3 +5,6 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("check command")
+
+def secondIndex(request):
+    return HttpResponse("check command);
